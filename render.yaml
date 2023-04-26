@@ -1,0 +1,43 @@
+services:
+  # DEV SERVER
+  - type: web
+    name: dsp-wallet
+    env: node
+    branch: main
+    region: frankfurt
+    buildCommand: 'npm install; npm run build;'
+    startCommand: 'npm run start'
+    plan: Starter
+    pullRequestPreviewsEnabled: true
+    disk:
+      name: app-data
+      mountPath: /data
+      sizeGB: 5
+    domains:
+      - wallet.dsp.symfoni.dev
+    envVars:
+    - key: NEXT_PUBLIC_DEV_PRIVATE_KEY
+      sync: false
+    - key: NEXT_PUBLIC_CONTACT_REGISTRY_URL
+      value: https://contact-registry.dsp.symfoni.dev
+    - key: NEXT_PUBLIC_BLOCK_EXPLORER_URL
+      value: https://blockscout.bergen.nahmii.io
+    - key: NEXT_PUBLIC_NAHMII_BASIC_AUTH
+      sync: false
+    - key: SITE_PASSWORD
+      sync: false
+    - key: NEXT_PUBLIC_RPC_URL
+      sync: false
+    - key: NEXT_PUBLIC_RPC_USER
+      sync: false
+    - key: NEXT_PUBLIC_RPC_PASSWORD
+      sync: false
+    - key: NEXT_PUBLIC_RPC_CHAIN_ID
+      value: 1729
+    - key: NEXT_PUBLIC_RPC_CHAIN_NAME
+      value: "NorwegianCentralBank"
+    - key: NEXT_PUBLIC_VC_ISSUER_URL
+      value: "https://vc-issuer.dsp.symfoni.dev"
+    
+
+    

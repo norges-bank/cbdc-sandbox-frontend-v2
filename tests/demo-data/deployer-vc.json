@@ -1,0 +1,21 @@
+{
+    "credentialSubject": {
+        "idNumber": "13835698240"
+    },
+    "issuer": {
+        "id": "did:ethr:1729:0x0200573f001338129fc62c1e1eb79505cc0830754e1ea2da7701654488dece85be"
+    },
+    "type": [
+        "VerifiableCredential",
+        "NorwegianIdNumber"
+    ],
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://www.symfoni.dev/credentials/v1"
+    ],
+    "issuanceDate": "2022-10-24T09:12:11.000Z",
+    "proof": {
+        "type": "JwtProof2020",
+        "jwt": "eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vd3d3LnN5bWZvbmkuZGV2L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJOb3J3ZWdpYW5JZE51bWJlciJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJpZE51bWJlciI6IjEzODM1Njk4MjQwIn19LCJuYmYiOjE2NjY2MDI3MzEsImlzcyI6ImRpZDpldGhyOjE3Mjk6MHgwMjAwNTczZjAwMTMzODEyOWZjNjJjMWUxZWI3OTUwNWNjMDgzMDc1NGUxZWEyZGE3NzAxNjU0NDg4ZGVjZTg1YmUifQ.2eA1o_9GUck6uuLULaSr8-Y1DZcaTzgUGfhw4NYDK90YnIhgTwIX8iZ6tO0rA9P-ymZ5wkRzcVEJBfb-9ZaSPg"
+    }
+}

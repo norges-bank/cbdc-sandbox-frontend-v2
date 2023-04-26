@@ -1,0 +1,15 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import type { NextApiRequest, NextApiResponse } from 'next'
+
+type Data = {
+  status: string
+  version: string
+}
+
+export default function handler(
+  req: NextApiRequest,
+  res: NextApiResponse<Data>
+) {
+  console.log(req)
+  res.status(200).json({ status: "ok", version: "todo" })
+}
