@@ -17,8 +17,8 @@
 	},
 	"dependencies": {
 		"@nextui-org/react": "^1.0.0-beta.12",
-		"@symfoni/cbdc-sandbox-contracts-shared": "0.3.28",
-		"@symfoni/vc-tools": "0.0.30",
+		"@symfoni/cbdc-sandbox-contracts-shared": "0.3.31",
+		"@symfoni/vc-tools": "0.0.36",
 		"@types/debug": "^4.1.7",
 		"@veramo/core": "^4.0.0",
 		"@veramo/credential-w3c": "^4.0.1",
