@@ -27,11 +27,13 @@ Features
 Getting Started
 ---------------
 
-To get started with the project, follow these steps:
+This frontend relies on interactions with the blockchain via CBDC smart contracts. To run this locally, access the repository at [cbdc-sandbox-contracts](https://github.com/norges-bank/cbdc-sandbox-contracts) and follow the provided instructions. By doing so, you'll have all the necessary components running on your local machine.
+
+To get started with the frontend, follow these steps:
 
 1.  Clone the repository to your local machine
 2.  Install dependencies by running `npm install`
-3.  Rename `.env.example` to `.env.development`
+3.  Copy `.env.example` to `.env.development`
 4.  Set your environment variables in the `.env.development` file
 5.  Start the development server by running `npm run dev`
 6.  Visit `http://localhost:3000` in your browser to use the wallet
